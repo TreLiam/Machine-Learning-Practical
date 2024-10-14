@@ -567,10 +567,6 @@ class SoftmaxLayer(Layer):
     def __repr__(self):
         return 'SoftmaxLayer'
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 9b9a7d50fac4e2db48f2445fcb2e8077ea78a6a6
 class RadialBasisFunctionLayer(Layer):
     """Layer implementing projection to a grid of radial basis functions."""
 
@@ -630,8 +626,6 @@ class RadialBasisFunctionLayer(Layer):
 
     def __repr__(self):
         return 'RadialBasisFunctionLayer(grid_dim={0})'.format(self.grid_dim)
-<<<<<<< HEAD
-=======
 
 class DropoutLayer(StochasticLayer):
     """Layer which stochastically drops input dimensions in its output."""
@@ -746,4 +740,3 @@ class ReshapeLayer(Layer):
 
     def __repr__(self):
         return 'ReshapeLayer(output_shape={0})'.format(self.output_shape)
->>>>>>> 9b9a7d50fac4e2db48f2445fcb2e8077ea78a6a6
